@@ -1,0 +1,10 @@
+.editor-wrapper {
+  display: flex;
+  background: #060606;
+}
+
+@media (max-width: 500px) {
+  .editor-wrapper {
+    display: inline;
+  }
+}

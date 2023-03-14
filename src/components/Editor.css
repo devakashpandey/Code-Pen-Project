@@ -1,0 +1,70 @@
+/* main header styling  */
+.header {
+  display: flex;
+  background-color: #060606;
+  color: #aaaebc;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+/* heading style */
+
+.heading {
+  background: #1d1e22;
+  display: flex;
+  padding: 10px 12px;
+}
+
+.language {
+  display: flex;
+  height: 19px;
+  width: 22px;
+  justify-content: center;
+  border-radius: 5px;
+  padding-bottom: 3px;
+  color: #000;
+}
+
+/* main editor box styling */
+.CodeMirror {
+  height: 320px !important;
+  color: #fff;
+}
+
+/* side line of editor styling  */
+.CodeMirror-gutters {
+  background: #1d1e22 !important;
+}
+
+/* editor scroll styling */
+.CodeMirror-scroll {
+  background: #1d1e22 !important;
+}
+
+.container {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 10px;
+}
+
+.editor-icon {
+  background: "white";
+  cursor: pointer;
+  background: #1d1e22;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin: 3px;
+  font-size: 18px !important;
+}
+
+.editor-icon:hover {
+  background: #1d1e30;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 0;
+  }
+}
